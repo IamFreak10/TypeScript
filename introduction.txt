@@ -1,0 +1,2 @@
+**Node Version Manager
+      ---unstall node.js(নইলে কনফ্লিক্ট হইবে)
