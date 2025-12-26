@@ -42,6 +42,9 @@ const user2: User = {
 
 type IsAddmin = true;
 const isAddmin: IsAddmin = true;
+// ? All ok but but
+type IsAddmin2 = false;
+//? const IsAddmin2:IsAddmin2=true; it will show error
 
 // functtion
 type Addfunction = (num1: number, num2: number) => number;
