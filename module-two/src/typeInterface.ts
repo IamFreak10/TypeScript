@@ -28,12 +28,14 @@ const userx: IUserwithrole = {
   role: 'admin',
 };
 // indexing
-interface Ifriends {
-  [index: number]: string;
-}
-const friends: Ifriends = ['aa', 'bb', 'ccc'];
+
+
 // for function :
 interface Iadd {
   (num1: number, num2: number): number;
 }
 const add: Iadd = (num1, num2) => num1 + num2;
+interface Ifriends {
+  [index: number]: string;
+}
+const friends: Ifriends = ['aa', 'bb', 'ccc'];
