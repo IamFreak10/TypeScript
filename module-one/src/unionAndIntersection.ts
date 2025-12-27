@@ -11,7 +11,7 @@ const getDashhBord = (role: UserRole) => {
   }
 };
 
-getDashhBord('admin');
+getDashhBord('guest');
 
 // inter section &
 type Employe = {
