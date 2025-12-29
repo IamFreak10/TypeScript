@@ -7,6 +7,7 @@ const createArrayWithGenric = <T>(value: T) => {
   return [value];
 };
 const arrNumber = createArrayWithGenric(12);
+
 // tupple
 const createArrayWithTuple = (param1: string, param2: number) => {
   return [param1, param2];

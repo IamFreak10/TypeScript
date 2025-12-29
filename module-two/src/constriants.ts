@@ -25,5 +25,6 @@ const student3 = {
   haswatch: true,
   name: 'Chor',
 };
-const res = createInfoWithGeniric(student3);
+// ! const res = createInfoWithGeniric(cat); cat iss missing id,constraint applies on id <T extends st>
+const res = createInfoWithGeniric(student3); /* No error */
 console.log(res);

@@ -14,3 +14,4 @@ const canEdit = (role: UserRoles) => {
 };
 const isEditPermissable = canEdit(UserRoles.Viewer);
 console.log(isEditPermissable)
+// ?enum is a TypeScript feature used to define a group of related constant values.

@@ -5,8 +5,9 @@ type RichPeopleVehicle = {
   bus: string;
 };
 
-type MyVeicle = 'car' | 'bike' | 'bus';
+// type MyVeicle = 'car' | 'bike' | 'bus';
 type Myvehicle2 = keyof RichPeopleVehicle;
+const myVehicle:Myvehicle2="car";
 
 // keyof constant
 type User = {
@@ -16,7 +17,7 @@ type User = {
     city: string;
   };
 };
-const user = {
+const user: User = {
   id: 222,
   name: 'Mahfuj',
   address: {
